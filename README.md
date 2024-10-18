@@ -1,4 +1,4 @@
-# Xampp-termux
+# Lampp-termux
   <details open>
   <summary><strong>git clone my project</strong></summary>
 
