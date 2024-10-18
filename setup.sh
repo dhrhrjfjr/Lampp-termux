@@ -8,12 +8,12 @@ rm -rf $PREFIX/etc/apache2/httpd.conf
 mv httpd.conf $PREFIX/etc/apache2
 echo ""
 echo "Instruct"
-echo "Start
+echo "    Start
       apachectl start"
-echo "Restart
+echo "    Restart
       apachectl restart"
-echo "Stop
+echo "    Stop
       apachectl stop"
 echo ""
 echo "Completed"
-cd
+cd ..
