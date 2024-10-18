@@ -3,7 +3,7 @@
   <summary><strong>git clone my project</strong></summary>
 
 ```bash
-git clone https://github.com/dhrhrjfjr/Xampp-termux.git
+git clone https://github.com/dhrhrjfjr/Lampp-termux.git
 ```
   </details>
   <details open>
