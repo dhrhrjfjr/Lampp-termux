@@ -6,6 +6,8 @@ pkg install -y apache2 php php-apache mariadb phpmyadmin wget
 wget https://dhrhrjfjr.github.io/wtf/httpd.conf
 rm -rf $PREFIX/etc/apache2/httpd.conf
 mv httpd.conf $PREFIX/etc/apache2
+cd
+chmod +x Lampp-termux/setup.sh
 echo ""
 echo "Instruct"
 echo "Start
@@ -14,4 +16,6 @@ echo "Restart
       apachectl restart"
 echo "Stop
       apachectl stop"
+echo ""
 echo "Completed"
+cd
