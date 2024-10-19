@@ -13,6 +13,7 @@ pkg install -y apache2 php php-apache mariadb phpmyadmin wget
 
 # Tải về tệp cấu hình Apache từ URL và thay thế tệp cấu hình hiện tạ
 rm -rf $PREFIX/etc/apache2/httpd.conf
+echo "Go back to the github page and wget the httpd.conf file depending on whether your termux is root or not"
 
 # Hướng dẫn sử dụng Apache2
 echo ""
@@ -24,4 +25,3 @@ echo ""
 
 # Hoàn thành
 echo "Setup completed."
-cd ..
