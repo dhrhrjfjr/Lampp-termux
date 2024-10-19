@@ -6,6 +6,14 @@
 git clone https://github.com/dhrhrjfjr/Lampp-termux.git
 ```
   </details>
+  
+  <details open>
+  <summary><strong>httpd.conf file for rooted termux</strong></summary>
+
+```bash
+wget 
+```
+  </details>
   <details open>
   <summary><strong>Start Lampp</strong></summary>
 
