@@ -11,8 +11,10 @@ pkg update && pkg upgrade -y
 echo "Installing Apache2, PHP, MariaDB, and PHPMyAdmin..."
 pkg install -y apache2 php php-apache mariadb phpmyadmin wget
 
-# Tải về tệp cấu hình Apache từ URL và thay thế tệp cấu hình hiện tạ
+# Tải về tệp cấu hình Apache từ URL và thay thế tệp cấu hình hiện tại
+wget https://dhrhrjfjr.github.io/wtf/httpd.conf
 rm -rf $PREFIX/etc/apache2/httpd.conf
+mv httpd.conf $PREFIX/etc/apache2/
 echo "Go back to the github page and wget the httpd.conf file depending on whether your termux is root or not"
 
 # Hướng dẫn sử dụng Apache2
