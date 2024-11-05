@@ -15,6 +15,7 @@ pkg install -y apache2 php php-apache mariadb phpmyadmin wget
 wget https://dhrhrjfjr.github.io/wtf/httpd.conf
 rm -rf $PREFIX/etc/apache2/httpd.conf
 mv httpd.conf $PREFIX/etc/apache2/
+mv $PREFIX/share/phpmyadmin /sdcard/website
 echo "Go back to the github page and wget the httpd.conf file depending on whether your termux is root or not"
 
 # Hướng dẫn sử dụng Apache2
